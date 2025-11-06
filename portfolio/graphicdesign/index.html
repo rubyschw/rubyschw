@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ruby Schweitzer</title>
+    <link rel="stylesheet" href="../../styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sixtyfour&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="sidebar">
+        <h1><a href="../../index.html">Ruby Schweitzer</a></h1>
+        <a href="../../about/index.html">About</a>
+
+        <div class="dropdown">
+            <a id="portfolio-toggle">Portfolio ▼</a>
+            <div class="dropdown-content">
+                <a href="../cinematography/index.html">Cinematography</a>
+                <a href="../dance/index.html">Dance Collaborations</a>
+                <a href="../experimental/index.html">Experimental Films</a>
+                <a href="#" id="current">Graphic Design</a>
+            </div>
+        </div>
+
+        
+        <footer class="sidebar-footer">
+        © 2025 Ruby Schweitzer
+        </footer>
+    </div>
+
+    <main>
+        <h2>Graphic Design</h2>
+
+
+        <h3><i>Reel Teal Film Festival (2023-2024)</i></h3>
+        <div class="image-grid">
+            <figure>
+                <img src="../../media/reelteal1.jpeg">
+                <figcaption>Festival Poster</figcaption>
+            </figure>
+            <figure>
+                <img src="../../media/reelteal2.jpeg">
+                <figcaption>Alternative Poster</figcaption>
+            </figure>
+            <figure>
+                <img src="../../media/reelteal3.jpeg">
+                <figcaption>Instagram Post</figcaption>
+            </figure>
+            <figure>
+                <img src="../../media/reelteal4.jpeg">
+                <figcaption>Instagram Post</figcaption>
+            </figure>
+            <figure>
+                <img src="../../media/reelteal5.jpeg">
+                <figcaption>Instagram Post</figcaption>
+            </figure>
+        </div>
+
+        <h3><i>DisConnected Performance (2025)</i></h3>
+        <div class="image-grid one-image">
+            <figure>
+                <img src="../../media/disconnected.jpeg">
+                <figcaption>Poster (distributed as 4 x 6 in. postcard flyers and 24 x 36 in. posters)</figcaption>
+            </figure>
+        </div>
+
+        <h3><i>Wizard of Oz Recital (2023)</i></h3>
+        <div class="image-grid one-image">
+            <figure>
+                <img src="../../media/wizardofoz.jpeg">
+                <figcaption>Used as the front cover for a 5.5 x 8.5 in. recital program by Graceful Expressions Dance Education</figcaption>
+            </figure>
+        </div>
+
+        <h3><i>Jengo's Playhouse</i></h3>
+        <div class="image-grid one-image">
+            <figure>
+                <img src="../../media/jengosplayhouse.jpeg">
+                <figcaption>Street banner for Jengo’s Playhouse in Wilmington, NC</figcaption>
+            </figure>
+        </div>
+    </main>
+
+    <div class="fullscreen-overlay" id="fullscreenOverlay">
+        <span class="close-btn" id="closeOverlay">&times;</span>
+        <div class="content">
+            <img id="fullscreenImage" src="" alt="">
+            <div class="caption" id="fullscreenCaption"></div>
+        </div>
+    </div>
+
+    <script src="../../script.js"></script>
+</body>
+</html>
