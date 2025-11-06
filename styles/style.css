@@ -378,6 +378,12 @@ iframe {
     color: #ccc;
 }
 
+.mobile-only-text {
+    color: gray;
+    display: none;
+    font-size: 16px;
+}
+
 @media (max-width: 1000px) {
     body {
         flex-direction: column;
@@ -487,6 +493,11 @@ iframe {
     .image-grid figure {
         flex: 1 1 calc(50% - 20px);
     }   
+
+    .mobile-only-text {
+        display: block;
+        margin-top: 0;
+    }
 }
 
 
