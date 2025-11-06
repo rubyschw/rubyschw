@@ -288,6 +288,7 @@ iframe {
 
 .image-grid img {
     width: 100%;
+    height: auto;
     object-fit: cover;
     background-color: #000;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -308,8 +309,8 @@ iframe {
 }
 
 .one-image {
-    width: 25%;
-    max-width: 300px;
+    width: 300px;
+    height: auto;
     align-items: baseline;
     margin-bottom: 20px;
 }
@@ -430,13 +431,22 @@ iframe {
     }
 
     .image-grid {
-        width: 50%;
-        max-width: 500px;
+        width: 80%;
+        max-width: 700px;
         flex-wrap: wrap;
     }
 
+    .image-grid figure {
+        flex: 1 1 calc(30% - 20px);
+    }    
+
     .image-grid figcaption {
         font-size: 14px;
+    }
+
+    .one-image {
+        flex: 1 1 calc(50% - 20px);
+        width: 300px;
     }
 
     main h2 {
@@ -471,6 +481,12 @@ iframe {
         background-color: rgba(0, 0, 0, 0.5);
         touch-action: manipulation;
     }
+}
+
+@media (max-width: 600px) {
+    .image-grid figure {
+        flex: 1 1 calc(50% - 20px);
+    }   
 }
 
 
