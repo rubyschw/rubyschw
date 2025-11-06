@@ -297,6 +297,7 @@ iframe {
 .image-grid img:hover {
     transform: scale(1.03);
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
 }
 
 .image-grid figcaption {
@@ -339,6 +340,8 @@ iframe {
 .fullscreen-overlay img {
     object-fit: contain;
     transform: scale(0.95);
+    max-width: 95%;
+    max-height: 80vh;
     transition: transform 0.3s ease;
 }
 
