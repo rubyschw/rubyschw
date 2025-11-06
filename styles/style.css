@@ -44,6 +44,10 @@ body {
     font-family: "Sixtyfour";
 }
 
+.header-fix {
+    letter-spacing: -4px;
+}
+
 .sidebar a {
     color: white;
     padding: 12px 25px;
