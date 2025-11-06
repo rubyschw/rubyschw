@@ -55,6 +55,7 @@ body {
 
 .sidebar a:hover {
     color: lightgray;
+    transition: color ease-in 0.1s;
 }
 .dropdown-content {
     max-height: 0;
