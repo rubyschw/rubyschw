@@ -270,8 +270,7 @@ iframe {
 
 .image-grid {
     display: flex;
-    justify-content: flex-start;
-    align-items: end;
+    align-items: baseline;
     width: 100%;
     max-width: 1300px;
     margin-left: 0;
@@ -310,10 +309,9 @@ iframe {
 
 .one-image {
     width: 25%;
-    height: 25%;
     max-width: 300px;
-    align-items: normal;
-    margin-bottom: 0;
+    align-items: baseline;
+    margin-bottom: 20px;
 }
 
 .fullscreen-overlay {
@@ -432,7 +430,8 @@ iframe {
     }
 
     .image-grid {
-        width: 70%;
+        width: 50%;
+        max-width: 500px;
         flex-wrap: wrap;
     }
 
