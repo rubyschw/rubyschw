@@ -117,6 +117,12 @@ main h3 {
     font-size: 25px;
 }
 
+.portrait {
+    width: 50%;
+    max-width: 500px;
+
+}
+
 .video-container {
     position: relative;
     width: 100%;
@@ -436,6 +442,10 @@ iframe {
     main {
         margin-left: 0;
         padding: 20px;
+    }
+
+    .portait {
+        max-width: 100%;
     }
 
     .container, 
