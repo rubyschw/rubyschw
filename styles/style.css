@@ -163,6 +163,7 @@ iframe {
     height: auto;
     border: 1px solid #ccc;
     display: block;
+    background-color: black;
 }
 
 .slideshow-container {
