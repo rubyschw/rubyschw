@@ -88,7 +88,6 @@ body {
     font-size: 14px;
     color: #d0e6dc;
     background-color: #0a4728;
-    border-top: 1px solid #126b3f;
     font-style: italic;
     z-index: 1000;
 }
@@ -109,6 +108,8 @@ main p {
 }
 
 main h2 {
+    font-family: "Sixtyfour", "Nanum Myeongjo", serif;
+    font-weight: normal;
     margin-bottom: 50px;
     font-size: 30px;
 }
