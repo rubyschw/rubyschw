@@ -491,6 +491,11 @@ iframe {
         margin-left: 0;
     }
 
+    main .container:nth-of-type(2) .static-image-container,
+    main .container:nth-of-type(3) .static-image-container {
+        display: none;
+    }
+
     .container, 
     .image-grid-container {
         flex-direction: column;
