@@ -123,6 +123,7 @@ ul {
     font-size: 20px;
     margin-right: 20%;
     display: block;
+    padding-left: 20px;
 }
 
 ul li {
@@ -132,6 +133,12 @@ ul li {
 ul li a {
     word-wrap: normal;
     overflow-wrap: anywhere;
+}
+
+.citations {
+    padding-left: 2em;
+    text-indent: -2em;
+    list-style: none;
 }
 
 .portrait {
@@ -275,7 +282,7 @@ iframe {
 
 .static-image-container {
     flex: 1;
-    max-width: 640px;
+    max-width: 320px;
     position: relative;
     overflow: hidden;
     background: #000;
